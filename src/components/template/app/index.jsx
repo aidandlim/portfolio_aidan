@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Wrapper from 'react-div-100vh'
 
 import Greeting from '../../frame/greeting';
-import Aboutme from '../../frame/aboutme';
+import Profile from '../../frame/profile';
+import About from '../../frame/about';
 import Skill from '../../frame/skill';
 import Portfolio from '../../frame/portfolio';
 import Contact from '../../frame/contact';
@@ -13,10 +14,12 @@ import './index.css';
 const App = () => {
 	const [primary, setPrimary] = useState(0);
 	const [secondary, setSecondary] = useState(0);
+	const [tertiary, setTertiary] = useState(0);
 
 	if(primary === 0) {
 		setPrimary('#1976D2');
-		setSecondary('#FFFFFF');
+		setSecondary('#2c3e50');
+		setTertiary('#EEEEEE');
 	}
 
 	return (
@@ -43,11 +46,22 @@ const App = () => {
 					--secondary-30: ${secondary + '4d'};
 					--secondary-20: ${secondary + '33'};
 					--secondary-10: ${secondary + '1a'};
+					--tertiary-100: ${tertiary + 'ff'};
+					--tertiary-90: ${tertiary + 'e6'};
+					--tertiary-80: ${tertiary + 'cc'};
+					--tertiary-70: ${tertiary + 'b3'};
+					--tertiary-60: ${tertiary + '99'};
+					--tertiary-50: ${tertiary + '80'};
+					--tertiary-40: ${tertiary + '66'};
+					--tertiary-30: ${tertiary + '4d'};
+					--tertiary-20: ${tertiary + '33'};
+					--tertiary-10: ${tertiary + '1a'};
 				}
 			`}</style>
 			<div className="app">
 				<Greeting />
-				<Aboutme />
+				<Profile />
+				<About />
 				<Skill />
 				<Portfolio />
 				<Contact />

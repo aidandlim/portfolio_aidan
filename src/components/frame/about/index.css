@@ -1,8 +1,6 @@
-.contact {
+.about {
     width: 100%;
-    height: 20rem;
-
-    margin-top: 3rem;
+    height: 30rem;
 
     position: relative;
     float: left;
@@ -10,11 +8,11 @@
     background-color: var(--primary-100);
 }
 
-.contact > h1 {
+.about > h1 {
     width: 100%;
     height: 2rem;
 
-    margin: 3rem 0 0 0;
+    margin: 7.5rem 0 0 0;
 
     position: relative;
     float: left;
@@ -27,11 +25,11 @@
     line-height: 2rem;
 }
 
-.contact > div {
+.about > div {
     width: 10rem;
     height: auto;
 
-    margin: 3rem 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 1rem;
 
     position: relative;

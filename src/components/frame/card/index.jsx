@@ -2,12 +2,12 @@ import React from 'react';
 
 import './index.css';
 
-const Aboutme = () => {
+const Card = (props) => {
 	return (
-		<div className='aboutme'>
+		<div className='card'>
 		
 		</div>
 	);
 }
 
-export default Aboutme;
+export default Card;

@@ -1,0 +1,55 @@
+.portfolio {
+    width: 100%;
+    height: 30rem;
+
+    margin-top: 17rem;
+
+    position: relative;
+    float: left;
+}
+
+.portfolio > h1 {
+    width: 100%;
+    height: 2rem;
+
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+
+    position: relative;
+    float: left;
+
+    color: var(--secondary-100);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.portfolio > h2 {
+    width: 100%;
+    height: 2rem;
+
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    float: left;
+
+    color: var(--secondary-70);
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.portfolio > div {
+    width: 60rem;
+    height: auto;
+
+    margin: 4rem 0;
+
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

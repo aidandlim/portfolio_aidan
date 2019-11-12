@@ -1,0 +1,16 @@
+.profile {
+    width: 10rem;
+    height: 10rem;
+
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 50%;
+
+    z-index: 2;
+}
