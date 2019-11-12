@@ -20,9 +20,9 @@ const Portfolio = () => {
 			<h1>My Recent Projects</h1>
 			<h2>Here are some recent projects. You can check whole project on my GitHub</h2>
 			<div>
-				<Card value={array[0]} />
-				<Card value={array[0]} />
-				<Card value={array[0]} />
+				<Card data={array[0]} />
+				<Card data={array[0]} />
+				<Card data={array[0]} />
 			</div>
 		</div>
 	);

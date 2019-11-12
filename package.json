@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-div-100vh": "^0.3.4",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
