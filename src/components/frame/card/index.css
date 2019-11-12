@@ -4,14 +4,45 @@
 
     margin: 0 1rem 1rem 0;
 
+    overflow: hidden;
+
     position: relative;
     float: left;
 
-    background-color: var(--tertiary-50);
+    background-color: var(--secondary-80);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-radius: 2.5rem;
+    border-radius: 1.5rem;
+
+    cursor: pointer;
 }
 
 .card:nth-child(3n) {
     margin-right: 0;
+}
+
+.card > img {
+    width: calc(20rem - 2rem / 3);
+    height: calc(20rem - 2rem / 3);
+
+    object-fit: contain;
+
+    border-radius: 1.5rem;
+}
+
+.card-detail {
+    width: calc(20rem - 2rem / 3);
+    height: calc(20rem - 2rem / 3);
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: var(--secondary-90);
+    border-radius: 1.5rem;
+
+    transition: 0.5s;
+}
+
+.card:hover .card-detail {
+    top: 0%;
 }
