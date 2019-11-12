@@ -1,0 +1,64 @@
+.contact {
+    width: 100%;
+    height: 18em;
+
+    margin-top: 12.5rem;
+
+    position: relative;
+
+    background-color: #1976D2;
+}
+
+.contact--interest {
+    width: 100%;
+    height: 7.5rem;
+
+    position: relative;
+
+    color: #E0E0E0;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 7.5rem;
+}
+
+.contact--chat {
+    width: 12rem;
+    height: 2.5rem;
+
+    margin-left: calc(50% - 6rem);
+
+    position: relative;
+
+    color: #E3F2FD;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2.5rem;
+
+    background: rgb(3,169,244);
+    background: linear-gradient(90deg, rgba(3,169,244,1) 0%, rgba(0,150,136,1) 100%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 1.5rem;
+
+    cursor: pointer;
+}
+
+.contact--chat:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: 0.5s;
+}
+
+.contact--copyright {
+    width: 100%;
+    height: 0.6rem;
+
+    margin-top: 2rem;
+
+    color: #E0E0E0;
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 3rem;
+}
