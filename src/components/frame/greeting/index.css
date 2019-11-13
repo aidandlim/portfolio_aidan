@@ -6,6 +6,8 @@
     float: left;
 
     background-color: var(--secondary-10);
+
+    transition: 1s;
 }
 
 .greeting > h1 {
@@ -38,4 +40,39 @@
     font-weight: 300;
     text-align: center;
     line-height: 2rem;
+}
+
+.greeting-setting-container {
+    width: auto;
+    height: auto;
+
+    margin: 0.5rem 0 0 0.5rem;
+
+    position: relative;
+    float: left;
+
+    background-color: var(--secondary-20);
+}
+
+.greeting-setting {
+    width: auto;
+    height: 0.6rem;
+
+    padding: 0.25rem 0.5rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--secondary-20);
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.6rem;
+
+    cursor: pointer;
+}
+
+.greeting-setting-active {
+    color: white;
+    background-color: var(--secondary-10);
 }

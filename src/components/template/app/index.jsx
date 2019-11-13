@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Wrapper from 'react-div-100vh'
 
@@ -12,9 +12,24 @@ import Contact from '../../frame/contact';
 import './index.css';
 
 const App = () => {
+	const [lang, setLang] = useState(0);
+	const [isDarkMode, setDarkMode] = useState(0);
+
 	const [primary, setPrimary] = useState(0);
 	const [secondary, setSecondary] = useState(0);
 	const [tertiary, setTertiary] = useState(0);
+
+	useEffect(() => {
+		if(isDarkMode) {
+			setPrimary('#202020');
+			setSecondary('#455A64');
+			setTertiary('#EEEEEE');
+		} else {
+			setPrimary('#1976D2');
+			setSecondary('#2c3e50');
+			setTertiary('#EEEEEE');
+		}
+	  }, [isDarkMode]);
 
 	if(primary === 0) {
 		setPrimary('#1976D2');
@@ -59,12 +74,12 @@ const App = () => {
 				}
 			`}</style>
 			<div className="app">
-				<Greeting />
-				<Profile />
-				<About />
-				<Skill />
-				<Portfolio />
-				<Contact />
+				<Greeting lang={lang} setLang={setLang} isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
+				<Profile lang={lang} />
+				<About lang={lang} />
+				<Skill lang={lang} />
+				<Portfolio lang={lang} />
+				<Contact lang={lang} />
 			</div> 
 		</Wrapper>
 	);

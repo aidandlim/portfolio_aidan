@@ -8,13 +8,15 @@
     float: left;
 
     background-color: var(--primary-100);
+
+    transition: 1s;
 }
 
 .contact > h1 {
     width: 100%;
     height: 2rem;
 
-    margin: 3rem 0 0 0;
+    margin: 4rem 0 0 0;
 
     position: relative;
     float: left;
@@ -28,11 +30,11 @@
 }
 
 .contact > div {
-    width: 10rem;
+    width: auto;
     height: auto;
 
     margin: 3rem 0 0 0;
-    padding: 0.75rem;
+    padding: 0.75rem 1.5rem;
 
     position: relative;
     float: left;
@@ -47,8 +49,15 @@
     background-color: var(--secondary-50);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 1.5rem;
+    transition: 0.5s;
 
     z-index: 9;
+
+    cursor: pointer;
+}
+
+.contact > div:hover {
+    background-color: var(--secondary-70);
 }
 
 .contact > h2 {
