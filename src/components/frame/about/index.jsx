@@ -34,7 +34,7 @@ const About = (props) => {
 					제 자신을 한 문장으로 표현하라면, 저는 <b>"여행을 사랑하는 웹 & 앱 개발자"라고 표현할 것입니다</b>.<br />
 					-<br />
 					저는 <b>자바</b>와 <b>자바스크립트</b>를 주로 활용하는 <b>풀스택 개발자</b>로써 3년 반동안 일했습니다.<br />
-					현재는 <font className='about-highlight' onClick={_handleHyperlinkToCollege}>#DeAnzaCollege</font>와 <font className='about-highlight' onClick={_handleHyperlinkToBootcamp}>#42SiliconValley.</font>라는 코딩학교에서 컴퓨터 공학을 공부 중입니다.<br />
+					현재는 <font className='about-highlight' onClick={_handleHyperlinkToCollege}>#DeAnzaCollege</font>와 부트캠프 <font className='about-highlight' onClick={_handleHyperlinkToBootcamp}>#42SiliconValley</font>에서 컴퓨터 공학을 공부 중입니다.<br />
 					지금은 프론트엔드 개발자로써 <b>자바스크립트</b>를 기반으로 하는 <b>리액트</b>와 <b>노드</b>에 집중하고 있습니다.
 				</div>
 			}

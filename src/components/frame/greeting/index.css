@@ -42,6 +42,17 @@
     line-height: 2rem;
 }
 
+.greeting-container {
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 10;
+}
+
 .greeting-setting-container {
     width: auto;
     height: auto;
@@ -84,9 +95,7 @@
     margin: 0.5rem 0.5rem 0 0;
 
     position: relative;
-    float: left;
-
-    left: calc(100% - 12rem);
+    float: right;
 
     color: var(--secondary-50);
 
