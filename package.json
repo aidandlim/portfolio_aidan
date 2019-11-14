@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-cookies": "^0.1.1",
     "react-div-100vh": "^0.3.4",
     "react-dom": "^16.8.6",
     "react-icons": "^3.8.0",

@@ -1,8 +1,19 @@
 import React from 'react';
 
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 import './index.css';
 
 const Greeting = (props) => {
+
+	const _handleLinkToGithub = () => {
+		window.open('https://github.com/aidandlim/', '_blank');
+	}
+
+	const _handleLinkToLinkedin = () => {
+		window.open('https://www.linkedin.com/in/aidan-lim/', '_blank');
+	}
+
 	return (
 		<div className='greeting'>
 			<div className='greeting-setting-container'>
@@ -13,6 +24,8 @@ const Greeting = (props) => {
 				<div className={props.isDarkMode ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setDarkMode(0) }>Bright</div>
 				<div className={!props.isDarkMode ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setDarkMode(1) }>Dark</div>
 			</div>
+			<FaGithub className='greeting-link-icon' onClick={_handleLinkToGithub} />
+			<FaLinkedin className='greeting-link-icon' onClick={_handleLinkToLinkedin} />
 			{!props.lang 
 				? 
 				<h1>Looking For a Full-Stack Developer?</h1>

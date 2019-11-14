@@ -76,3 +76,19 @@
     color: white;
     background-color: var(--secondary-10);
 }
+
+.greeting-link-icon {
+    width: 1rem;
+    height: 1rem;
+
+    margin: 0.5rem 0.5rem 0 0;
+
+    position: relative;
+    float: left;
+
+    left: calc(100% - 12rem);
+
+    color: var(--secondary-50);
+
+    cursor: pointer;
+}

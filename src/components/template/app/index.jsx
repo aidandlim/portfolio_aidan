@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import cookie from 'react-cookies'
+
 import Wrapper from 'react-div-100vh'
 
 import Greeting from '../../frame/greeting';
@@ -20,6 +22,23 @@ const App = () => {
 	const [tertiary, setTertiary] = useState(0);
 
 	useEffect(() => {
+		if(cookie.load('lang') !== undefined && cookie.load('lang') === 1) {
+			setLang(1);
+		} else {
+			setLang(0);
+		}
+		if(cookie.load('darkmode') !== undefined && cookie.load('darkmode') === 1) {
+			setPrimary('#202020');
+			setSecondary('#455A64');
+			setTertiary('#EEEEEE');
+		} else {
+			setPrimary('#1976D2');
+			setSecondary('#2c3e50');
+			setTertiary('#EEEEEE');
+		}
+	}, []);
+
+	useEffect(() => {
 		if(isDarkMode) {
 			setPrimary('#202020');
 			setSecondary('#455A64');
@@ -29,12 +48,16 @@ const App = () => {
 			setSecondary('#2c3e50');
 			setTertiary('#EEEEEE');
 		}
-	  }, [isDarkMode]);
+	}, [isDarkMode]);
 
-	if(primary === 0) {
-		setPrimary('#1976D2');
-		setSecondary('#2c3e50');
-		setTertiary('#EEEEEE');
+	const _handleLang = (value) => {
+		cookie.save('lang', value, { path: '/' });
+		setLang(value);
+	}
+
+	const _handleDarkMode = (value) => {
+		cookie.save('darkmode', value, { path: '/' });
+		setDarkMode(value);
 	}
 
 	return (
@@ -74,7 +97,7 @@ const App = () => {
 				}
 			`}</style>
 			<div className="app">
-				<Greeting lang={lang} setLang={setLang} isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
+				<Greeting lang={lang} setLang={_handleLang} isDarkMode={isDarkMode} setDarkMode={_handleDarkMode} />
 				<Profile lang={lang} />
 				<About lang={lang} />
 				<Skill lang={lang} />
