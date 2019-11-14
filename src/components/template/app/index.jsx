@@ -22,20 +22,8 @@ const App = () => {
 	const [tertiary, setTertiary] = useState(0);
 
 	useEffect(() => {
-		if(cookie.load('lang') !== undefined && cookie.load('lang') === 1) {
-			setLang(1);
-		} else {
-			setLang(0);
-		}
-		if(cookie.load('darkmode') !== undefined && cookie.load('darkmode') === 1) {
-			setPrimary('#202020');
-			setSecondary('#455A64');
-			setTertiary('#EEEEEE');
-		} else {
-			setPrimary('#1976D2');
-			setSecondary('#2c3e50');
-			setTertiary('#EEEEEE');
-		}
+		setLang(cookie.load('lang') !== undefined ? parseInt(cookie.load('lang')) : 0);
+		setDarkMode(cookie.load('darkmode') !== undefined ? parseInt(cookie.load('darkmode')) : 0);
 	}, []);
 
 	useEffect(() => {
