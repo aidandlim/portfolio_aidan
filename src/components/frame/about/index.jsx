@@ -16,7 +16,7 @@ const About = (props) => {
 
 	const _handleDetail = () => {
 		confirmAlert({
-			message: !props.lang ? 'I\'m sorry that this feature is working in progress!' : '준비 중입니다.',
+			message: !props.lang ? 'I\'m sorry that this feature is working in progress!' : '이 기능은 준비 중입니다.',
 			buttons: [
 				{
 					label: 'Okay'

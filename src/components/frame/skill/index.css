@@ -1,9 +1,9 @@
 .skill {
     width: 60rem;
-    height: 25rem;
+    height: 23.5rem;
 
     position: absolute;
-    top: 51.5rem;
+    top: 53rem;
     left: 50%;
     transform: translate(-50%, 0);
 
@@ -16,7 +16,7 @@
     width: 100%;
     height: 2rem;
 
-    margin: 1.5rem 0 0.5rem 0;
+    margin: 2rem 0 0.5rem 0;
     padding: 0;
 
     position: relative;
@@ -33,7 +33,7 @@
     width: 100%;
     height: 2rem;
 
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 2rem 0;
     padding: 0;
 
     position: relative;
@@ -48,7 +48,7 @@
 
 .skill-set {
     width: calc(25% - 0.05rem);
-    height: calc(100% - 9rem);
+    height: 12.5rem;
 
     position: relative;
     float: left;
@@ -79,4 +79,14 @@
 
     background-color: var(--primary-50);
     border-radius: 0.5rem;
+}
+
+.skill-set-body {
+    width: calc(100% - 1.5rem);
+    height: calc(100% - 2.5rem);
+
+    margin: 1rem 1rem 0.5rem 0.5rem;
+
+    position: relative;
+    float: left;
 }

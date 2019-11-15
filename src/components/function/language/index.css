@@ -1,0 +1,37 @@
+.language {
+    width: 100%;
+    height: 2rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--secondary-60);
+    font-size: 0.65rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.language-active {
+    color: var(--secondary-90);
+    font-weight: 900;
+}
+
+.language-icon {
+    width: 0.8rem;
+    height: 0.8rem;
+
+    margin: 0.6rem;
+
+    position: relative;
+    float: left;
+}
+
+.language-star {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    margin: 0.75rem 0 0 0.3rem;
+
+    position: relative;
+    float: right;
+}
