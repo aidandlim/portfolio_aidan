@@ -1,8 +1,22 @@
 import React from 'react';
 
+import { confirmAlert } from 'react-confirm-alert';
+
 import './index.css';
 
 const Contact = (props) => {
+
+	const _handleContact = () => {
+		confirmAlert({
+			message: !props.lang ? 'Just email me! aidandlim@gmail.com!' : 'aidandlim@gmail.com로 연락 주십시오.',
+			buttons: [
+				{
+					label: 'Okay'
+				}
+			]
+		});
+	}
+
 	return (
 		<div className='contact'>
 			{!props.lang 
@@ -13,9 +27,9 @@ const Contact = (props) => {
 			}
 			{!props.lang 
 				? 
-				<div>Contact right away</div>
+				<div onClick={ () => _handleContact() }>Contact right away</div>
 				: 
-				<div>바로 연락하기</div>
+				<div onClick={ () => _handleContact() }>바로 연락하기</div>
 			}
 			<h2>Handcraft by me &copy; Aidan Lim. 2019.</h2>
 		</div>

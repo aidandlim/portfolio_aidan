@@ -42,8 +42,8 @@
     top: calc(50% - 1.5rem);
     left: 0;
 
-    color: var(--primary-50);
-    font-size: 0.85rem;
+    color: var(--secondary-20);
+    font-size: 0.6rem;
     font-weight: 900;
     text-align: center;
     line-height: 1.35rem;

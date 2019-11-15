@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { confirmAlert } from 'react-confirm-alert';
+
 import './index.css';
 
 const About = (props) => {
@@ -10,6 +12,17 @@ const About = (props) => {
 
 	const _handleHyperlinkToBootcamp = () => {
 		window.open('https://www.42.us.org', '_blank');
+	}
+
+	const _handleDetail = () => {
+		confirmAlert({
+			message: !props.lang ? 'I\'m sorry that this feature is working in progress!' : '준비 중입니다.',
+			buttons: [
+				{
+					label: 'Okay'
+				}
+			]
+		});
 	}
 
 	return (
@@ -40,9 +53,9 @@ const About = (props) => {
 			}
 			{!props.lang 
 				? 
-				<div className='about-button'>Learn More About Me</div>
+				<div className='about-button' onClick={ () => _handleDetail() }>Learn More About Me</div>
 				: 
-				<div className='about-button'>자세히 살펴보기</div>
+				<div className='about-button' onClick={ () => _handleDetail() }>자세히 살펴보기</div>
 			}
 		</div>
 	);
