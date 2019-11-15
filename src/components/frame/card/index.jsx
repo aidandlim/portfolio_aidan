@@ -7,7 +7,7 @@ import './index.css';
 const Card = (props) => {
 	return (
 		<div className={props.data.isProgress ? 'card card-progress' : 'card'} >
-			{props.data.preview !== '' ? <img src={props.data.preview} alt='portfolio' /> : <div class='workinprogress'>Work in Progress...</div> }
+			{props.data.preview !== '' ? <img src={props.data.preview} alt='portfolio' /> : <div className='workinprogress'>Work in Progress...</div> }
 			<div className='card-detail'>
 				{ props.data.isPersonal ? <FaUser className='card-detail-user-icon' /> : <FaUserFriends className='card-detail-user-icon' /> }
 				{ props.data.isProgress ? <FaCircleNotch className='card-detail-progress-icon' /> : <FaCheck className='card-detail-progress-icon' /> }

@@ -29,7 +29,7 @@ const Portfolio = (props) => {
 			site: 'https://camagru.aidandlim.com/',
 		},
 		{
-			isPersonal: 2,
+			isPersonal: 0,
 			isProgress: 1,
 			title: 'M@TCH@',
 			description1: '- A responsive Single Page Application(SPA) using React & Node',
