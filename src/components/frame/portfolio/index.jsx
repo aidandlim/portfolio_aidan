@@ -12,7 +12,7 @@ const Portfolio = (props) => {
 			title: 'Aidan\'s',
 			description1: '- A responsive Single Page Application(SPA) using React',
 			description2: '- A simple web application for introducing myself',
-			preview: 'https://github.com/aidandlim/portfolio_aidan/blob/master/PREVIEW.gif?raw=true',
+			preview: 'https://github.com/aidandlim/portfolio_aidan/blob/master/AIDAN.png?raw=true',
 			code: 'https://github.com/aidandlim/portfolio_aidan',
 			page: 'https://aidandlim.github.io/portfolio_aidan/',
 			site: 'https://portal.aidandlim.com/',
