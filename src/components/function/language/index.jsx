@@ -10,7 +10,7 @@ const Language = (props) => {
             {props.data.icon}
             {props.data.title}
             {props.data.experties.map((index) =>
-                <FaStar className='language-star' key={index} />    
+                <FaStar className='language-star' key={Math.floor(Math.random() * 10000) + index} />    
             )}
 		</div>
 	);

@@ -146,7 +146,7 @@ const Skill = (props) => {
 				<div className='skill-set-title'>Front-end</div>
 				<div className='skill-set-body'>
 					{frontend.map((element, index) =>
-						<Language data={element} key={index} />
+						<Language data={element} key={index} index={100} />
 					)}
 				</div>
 			</div>
@@ -154,7 +154,7 @@ const Skill = (props) => {
 				<div className='skill-set-title'>Back-end</div>
 				<div className='skill-set-body'>
 					{backend.map((element, index) =>
-						<Language data={element} key={index} />
+						<Language data={element} key={index} index={200} />
 					)}
 				</div>
 			</div>
@@ -162,7 +162,7 @@ const Skill = (props) => {
 				<div className='skill-set-title'>Database</div>
 				<div className='skill-set-body'>
 					{database.map((element, index) =>
-						<Language data={element} key={index} />
+						<Language data={element} key={index} index={300} />
 					)}
 				</div>
 			</div>
@@ -170,7 +170,7 @@ const Skill = (props) => {
 				<div className='skill-set-title'>Etc</div>
 				<div className='skill-set-body'>
 					{etc.map((element, index) =>
-						<Language data={element} key={index} />
+						<Language data={element} key={index}index={400} />
 					)}
 				</div>
 			</div>

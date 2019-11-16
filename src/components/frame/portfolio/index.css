@@ -2,10 +2,12 @@
     width: 100%;
     height: 30rem;
 
-    margin-top: 14rem;
+    margin-top: 15rem;
 
     position: relative;
     float: left;
+
+    transition: 0.5s;
 }
 
 .portfolio > h1 {
@@ -52,4 +54,18 @@
     float: left;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+@media (max-width: 1500px) {
+    .portfolio {
+        height: auto;
+    }
+    
+    .portfolio > div {
+        width: calc(100% - 2rem);
+        height: auto;
+    
+        margin: 1rem;
+        transform: translate(calc(-50% - 1rem), 0);
+    }
 }

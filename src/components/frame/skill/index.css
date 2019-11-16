@@ -90,3 +90,19 @@
     position: relative;
     float: left;
 }
+
+@media (max-width: 1500px) {
+    .skill {
+        width: calc(100% - 2rem);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        transform: translate(calc(-50% - 1rem), 0);
+    }
+
+    .skill-set-body {
+        width: calc(100% - 1rem);
+        height: calc(100% - 2.5rem);
+
+        margin: 1rem 0.75rem 0.5rem 0.25rem;
+    }
+}
