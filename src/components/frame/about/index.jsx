@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { confirmAlert } from 'react-confirm-alert';
-
 import './index.css';
 
 const About = (props) => {
@@ -15,14 +13,7 @@ const About = (props) => {
 	}
 
 	const _handleDetail = () => {
-		confirmAlert({
-			message: !props.lang ? 'I\'m sorry that this feature is working in progress!' : '이 기능은 준비 중입니다.',
-			buttons: [
-				{
-					label: 'Okay'
-				}
-			]
-		});
+		window.open('https://www.linkedin.com/in/aidan-lim', '_blank');
 	}
 
 	return (
