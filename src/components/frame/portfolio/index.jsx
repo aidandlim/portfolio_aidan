@@ -15,7 +15,7 @@ const Portfolio = (props) => {
 			preview: '',
 			code: 'https://github.com/aidandlim/portfolio_aidan',
 			page: 'https://aidandlim.github.io/portfolio_aidan/',
-			site: 'https://www.aidandlim.com/',
+			site: 'https://portal.aidandlim.com/',
 		},
 		{
 			isPersonal: 1,
