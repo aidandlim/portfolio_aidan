@@ -1,4 +1,4 @@
-<a href="https://www.aidandlim.com" title="header" alt="header">
+<a href="https://portal.aidandlim.com" title="header" alt="header">
   <img src="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/128/Cloud-icon.png" width="200" height="200" title="header" alt="header">
 </a>
 
@@ -10,7 +10,9 @@
 
 ## Preview
 
-***Not Yet***
+<a href="https://portal.aidandlim.com" title="preview" alt="preview">
+  <img src="https://github.com/aidandlim/portfolio_aidan/blob/master/AIDAN.png?raw=true" width="100%" title="preview" alt="preview">
+</a>
 
 ---
 
@@ -25,15 +27,9 @@
 
 ---
 
-## Features
-
-***Not Yet***
-
----
-
 ## Live Demo
 
-***Not Yet***
+> Click <a href="https://portal.aidandlim.com" target="_blank">`HERE`</a> to check it out right now.
 
 ---
 
