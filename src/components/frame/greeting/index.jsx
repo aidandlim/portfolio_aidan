@@ -36,9 +36,9 @@ const Greeting = (props) => {
 			}
 			{!props.lang 
 				? 
-				<h2>I Enjoy Building Everything from Small Company Sites to Huge Web Apps.</h2>
+				<h2>I Enjoy Creating Something New Through the Coding.</h2>
 				: 
-				<h2>저는 작은 규모의 기업 홈페이지부터 규모가 큰 어플리케이션까지 모든 코딩을 즐기는 개발자입니다.</h2>
+				<h2>저는 코딩을 통해 새로운 것을 만드는 것을 즐기는 개발자입니다.</h2>
 			}
 		</div>
 	);

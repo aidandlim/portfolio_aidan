@@ -20,7 +20,7 @@ const About = (props) => {
 		<div className='about'>
 			{!props.lang 
 				? 
-				<h1>Hello, I'm Aidan. It's pleasure to meet you.</h1>
+				<h1>Hello, I'm Aidan. It's a pleasure to meet you.</h1>
 				: 
 				<h1>안녕하세요. 저는 임동섭입니다. 만나서 반갑습니다.</h1>
 			}
@@ -30,8 +30,8 @@ const About = (props) => {
 					If I were to describe myself in one sentence, I would say <b>"A web & app developer who loves traveling"</b>.<br />
 					-<br />
 					I have worked as a <b>full-stack developer</b> for 3 years with varieties of languages such as <b>Java</b>, <b>Javascript</b> and so on.<br />
-					I am currently studying computer science at <font className='about-highlight' onClick={_handleHyperlinkToCollege}>#DeAnzaCollege</font> and bootcamp named <font className='about-highlight' onClick={_handleHyperlinkToBootcamp}>#42SiliconValley.</font><br />
-					Main part I am focusing on is Front-end web development with <b>React.js</b> and <b>Node.js</b> based on <b>Javascript</b>. 
+					I am currently studying computer science at <font className='about-highlight' onClick={_handleHyperlinkToCollege}>#DeAnzaCollege</font> and Bootcamp named <font className='about-highlight' onClick={_handleHyperlinkToBootcamp}>#42SiliconValley.</font><br />
+					The main part I am focusing on is Front-end web development with <b>React.js</b> and <b>Node.js</b> based on <b>Javascript</b>. 
 				</div>
 				: 
 				<div className='about-detail'>
