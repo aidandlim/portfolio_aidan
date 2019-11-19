@@ -18,7 +18,7 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-100);
+    color: #263238;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -35,7 +35,7 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-70);
+    color: #455A64;
     font-size: 0.8rem;
     font-weight: 300;
     text-align: center;

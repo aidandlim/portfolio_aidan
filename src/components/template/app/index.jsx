@@ -9,6 +9,7 @@ import Profile from '../../frame/profile';
 import About from '../../frame/about';
 import Skill from '../../frame/skill';
 import Portfolio from '../../frame/portfolio';
+import Project from '../../frame/project';
 import Contact from '../../frame/contact';
 
 import './index.css';
@@ -33,6 +34,7 @@ const App = () => {
 				<About lang={lang} />
 				<Skill lang={lang} />
 				<Portfolio lang={lang} />
+				<Project lang={lang} />
 				<Contact lang={lang} />
 			</div> 
 		</Wrapper>

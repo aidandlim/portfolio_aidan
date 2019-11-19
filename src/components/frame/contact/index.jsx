@@ -1,20 +1,11 @@
 import React from 'react';
 
-import { confirmAlert } from 'react-confirm-alert';
-
 import './index.css';
 
 const Contact = (props) => {
 
 	const _handleContact = () => {
-		confirmAlert({
-			message: !props.lang ? 'Just email me! aidandlim@gmail.com!' : 'aidandlim@gmail.com로 연락 주십시오.',
-			buttons: [
-				{
-					label: 'Okay'
-				}
-			]
-		});
+		
 	}
 
 	return (

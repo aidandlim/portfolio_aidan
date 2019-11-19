@@ -13,7 +13,7 @@ const About = (props) => {
 	}
 
 	const _handleDetail = () => {
-		window.open('https://www.linkedin.com/in/aidan-lim', '_blank');
+		
 	}
 
 	return (
@@ -32,7 +32,7 @@ const About = (props) => {
 					I have worked for three and a half years as a <b>full-stack developer</b> that mainly utilizes <b>Java</b>, <b>JavaScript</b>, and <b>SQL</b><br />
 					in the solution development division of a <b>business consulting firm</b> in Seoul, South Korea.<br />
 					I am currently studying computer science at <font className='about-highlight' onClick={_handleHyperlinkToCollege}>#DeAnzaCollege</font> and Bootcamp named <font className='about-highlight' onClick={_handleHyperlinkToBootcamp}>#42SiliconValley.</font><br />
-					The main part I am focusing on is Front-end web development with <b>React.js</b> based on <b>Javascript</b>. 
+					The main part I am focusing on is Frontend web development with <b>React.js</b> based on <b>Javascript</b>. 
 				</div>
 				: 
 				<div className='about-detail'>

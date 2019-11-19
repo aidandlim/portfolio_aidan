@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { IoMdMail, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
 
 import './index.css';
 
@@ -21,8 +21,9 @@ const Greeting = (props) => {
 					<div className={props.lang !== 0 ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(0) }>EN</div>
 					<div className={props.lang !== 1 ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(1) }>KR</div>
 				</div>
-				<FaGithub className='greeting-link-icon' onClick={_handleLinkToGithub} />
-				<FaLinkedin className='greeting-link-icon' onClick={_handleLinkToLinkedin} />
+				<IoLogoLinkedin className='greeting-link-icon' onClick={_handleLinkToLinkedin} />
+				<IoLogoGithub className='greeting-link-icon' onClick={_handleLinkToGithub} />
+				<a href='mailto:aidandlim@gmail.com'><IoMdMail className='greeting-link-icon'/></a>
 			</div>
 			{!props.lang 
 				? 
