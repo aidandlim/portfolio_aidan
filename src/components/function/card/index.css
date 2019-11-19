@@ -9,10 +9,10 @@
     position: relative;
     float: left;
 
-    background-color: white;
+    background-color: #ECEFF1;
     border-radius: 1.5rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    opacity: 0.65;
+    opacity: 0.75;
 
     transition: 1s;
 }
@@ -26,62 +26,67 @@
     opacity: 1;
 }
 
+.card-header {
+    width: 100%;
+    height: 2rem;
+
+    position: relative;
+    float: left;
+
+    background-color: #CFD8DC;
+}
+
 .card-progress {
     opacity: 0.25;
 }
 
-.card-detail-user-icon {
+.card-user-icon {
     width: 0.6rem;
     height: 0.6rem;
 
     position: absolute;
-    top: 0.85rem;
-    left: 0.85rem;
+    top: 0.8rem;
+    left: 1.2rem;
 
-    color: var(--tertiary-50);
+    color: #607D8B;
 }
 
-.card-detail-progress-icon {
+.card-progress-icon {
     width: 0.6rem;
     height: 0.6rem;
 
     position: absolute;
-    top: 0.85rem;
-    left: calc(100% - 1.45rem);
+    top: 0.8rem;
+    left: calc(100% - 1.8rem);
 
-    color: var(--tertiary-50);
+    color: #607D8B;
 }
 
-.card-detail-title {
+.card-title {
     width: 100%;
-    height: 1.5rem;
+    height: 2rem;
 
     position: relative;
     float: left;
 
-    color: var(--tertiary-80);
+    color: #455A64;
     font-size: 0.85rem;
     font-weight: 900;
     text-align: center;
-    line-height: 1.35rem;
+    line-height: 2rem;
 }
 
-.card-detail-description {
+.card-body {
     width: 100%;
-    height: 1.5rem;
+    height: calc(100% - 4rem);
 
     position: relative;
     float: left;
-
-    color: var(--tertiary-50);
-    font-size: 0.5rem;
-    font-weight: 500;
-    line-height: 1.35rem;
 }
 
-.card-detail-link-container {
+.card-footer {
     width: auto;
-    height: 1.5rem;
+    height: 2rem;
 
     position: relative;
     float: left;
@@ -89,22 +94,35 @@
     transform: translate(-50%, 0);
 }
 
-.card-detail-link {
+.card-link {
     width: auto;
     height: 0.6rem;
 
     padding: 0.25rem 0.25rem;
-    margin: 0.2rem 0.25rem;
+    margin: 0.45rem 0.25rem;
 
     position: relative;
     float: left;
 
-    color: var(--secondary-70);
+    color: white;
     font-size: 0.5rem;
-    font-weight: 600;
+    font-weight: 900;
     line-height: 0.6rem;
 
-    background-color: var(--tertiary-80);
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+.card-link-document {
+    background-color: #2980b9;
+}
+
+.card-link-code {
+    background-color: #f39c12;
+}
+
+.card-link-demo {
+    background-color: #e74c3c;
 }

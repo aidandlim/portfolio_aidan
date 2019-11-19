@@ -6,4 +6,6 @@
     float: left;
 
     background-color: #F5F5F5;
+
+    transition: 1s;
 }

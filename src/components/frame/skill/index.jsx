@@ -140,7 +140,7 @@ const Skill = (props) => {
 				}
 				{!props.lang 
 					? 
-					<h2>I can use a variety of languages in all areas of web development from frontend to database.</h2>
+					<h2>I can use a variety of languages in all areas of web development from frontend to backend.</h2>
 					: 
 					<h2>저는 다양한 분야의 프로그래밍 언어를 배우는 것에 흥미를 갖고 있습니다.</h2>
 				}
