@@ -18,12 +18,8 @@ const Greeting = (props) => {
 		<div className='greeting'>
 			<div className='greeting-container'>
 				<div className='greeting-setting-container'>
-					<div className={props.lang ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(0) }>EN</div>
-					<div className={!props.lang ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(1) }>KR</div>
-				</div>
-				<div className='greeting-setting-container'>
-					<div className={props.isDarkMode ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setDarkMode(0) }>Bright</div>
-					<div className={!props.isDarkMode ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setDarkMode(1) }>Dark</div>
+					<div className={props.lang !== 0 ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(0) }>EN</div>
+					<div className={props.lang !== 1 ? 'greeting-setting' : 'greeting-setting greeting-setting-active'} onClick={ () => props.setLang(1) }>KR</div>
 				</div>
 				<FaGithub className='greeting-link-icon' onClick={_handleLinkToGithub} />
 				<FaLinkedin className='greeting-link-icon' onClick={_handleLinkToLinkedin} />

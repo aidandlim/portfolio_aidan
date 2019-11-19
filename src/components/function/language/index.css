@@ -5,14 +5,14 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-60);
+    color: #78909C;
     font-size: 0.65rem;
     font-weight: 500;
     line-height: 2rem;
 }
 
 .language-active {
-    color: var(--secondary-90);
+    color: #607D8B;
     font-weight: 900;
 }
 
@@ -24,6 +24,8 @@
 
     position: relative;
     float: left;
+
+    color: #455A64;
 }
 
 .language-star {
@@ -34,24 +36,6 @@
 
     position: relative;
     float: right;
-}
 
-@media (max-width: 1500px) {
-    .language {
-        font-size: 0.5rem;
-    }
-
-    .language-icon {
-        width: 0.6rem;
-        height: 0.6rem;
-
-        margin: 0.7rem;
-    }
-
-    .language-star {
-        width: 0.3rem;
-        height: 0.3rem;
-
-        margin: 0.85rem 0 0 0.05rem;
-    }
+    color: #90A4AE;
 }

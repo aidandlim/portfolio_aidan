@@ -130,49 +130,58 @@ const Skill = (props) => {
 
 	return (
 		<div className='skill'>
-			{!props.lang 
-				? 
-				<h1>What Can I Do?</h1>
-				: 
-				<h1>활용 프로그래밍 언어</h1>
-			}
-			{!props.lang 
-				? 
-				<h2>I am really interested in learning programming language in various area.</h2>
-				: 
-				<h2>저는 다양한 분야의 프로그래밍 언어를 배우는 것에 흥미를 갖고 있습니다.</h2>
-			}
-			<div className='skill-set'>
-				<div className='skill-set-title'>Front-end</div>
-				<div className='skill-set-body'>
-					{frontend.map((element, index) =>
-						<Language data={element} key={index} index={100} />
-					)}
+			<div className='skill-bg'></div>
+			<div className='skill-container'>
+				{!props.lang 
+					? 
+					<h1>What Languages Do I Use?</h1>
+					: 
+					<h1>활용 프로그래밍 언어</h1>
+				}
+				{!props.lang 
+					? 
+					<h2>I can use a variety of languages in all areas of web development from frontend to database.</h2>
+					: 
+					<h2>저는 다양한 분야의 프로그래밍 언어를 배우는 것에 흥미를 갖고 있습니다.</h2>
+				}
+				<div className='skill-set'>
+					<div className='skill-set-title'>FRONTEND</div>
+					<div className='skill-set-body'>
+						{frontend.map((element, index) =>
+							<Language data={element} key={index} index={100} />
+						)}
+					</div>
 				</div>
-			</div>
-			<div className='skill-set'>
-				<div className='skill-set-title'>Back-end</div>
-				<div className='skill-set-body'>
-					{backend.map((element, index) =>
-						<Language data={element} key={index} index={200} />
-					)}
+				<div className='skill-set'>
+					<div className='skill-set-title'>BACKEND</div>
+					<div className='skill-set-body'>
+						{backend.map((element, index) =>
+							<Language data={element} key={index} index={200} />
+						)}
+					</div>
 				</div>
-			</div>
-			<div className='skill-set'>
-				<div className='skill-set-title'>Database</div>
-				<div className='skill-set-body'>
-					{database.map((element, index) =>
-						<Language data={element} key={index} index={300} />
-					)}
+				<div className='skill-set'>
+					<div className='skill-set-title'>SQL</div>
+					<div className='skill-set-body'>
+						{database.map((element, index) =>
+							<Language data={element} key={index} index={300} />
+						)}
+					</div>
 				</div>
-			</div>
-			<div className='skill-set'>
-				<div className='skill-set-title'>Etc</div>
-				<div className='skill-set-body'>
-					{etc.map((element, index) =>
-						<Language data={element} key={index}index={400} />
-					)}
+				<div className='skill-set'>
+					<div className='skill-set-title'>ETC</div>
+					<div className='skill-set-body'>
+						{etc.map((element, index) =>
+							<Language data={element} key={index}index={400} />
+						)}
+					</div>
 				</div>
+				{!props.lang 
+					? 
+					<div className='skill-interested'>Also, I am interested in learning <b>React Native</b> for Application, <b>Swift</b> for iOS, <b>Python</b> for Machine Learning recently.</div>
+					: 
+					<div className='skill-interested'>또한, 최근에 어플리케이션을 위한 <b>React Native</b>, iOS를 위한 <b>Swift</b>, 머신러닝을 위한 <b>Python</b>에 관심을 갖고 있습니다.</div>
+				}
 			</div>
 		</div>
 	);

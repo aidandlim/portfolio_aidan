@@ -27,7 +27,7 @@ const Contact = (props) => {
 			}
 			{!props.lang 
 				? 
-				<div onClick={ () => _handleContact() }>Contact right away</div>
+				<div onClick={ () => _handleContact() }>Contact Right Away</div>
 				: 
 				<div onClick={ () => _handleContact() }>바로 연락하기</div>
 			}

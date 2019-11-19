@@ -1,26 +1,24 @@
 .about {
     width: 100%;
-    height: 40rem;
+    height: auto;
 
     position: relative;
     float: left;
 
-    background-color: var(--primary-100);
-
-    transition: 1s;
+    background-color: #1976D2;
 }
 
 .about > h1 {
     width: 100%;
     height: 2rem;
 
-    margin: 7.5rem 0 0 0;
+    margin-top: 3rem;
 
     position: relative;
     float: left;
 
-    color: var(--tertiary-100);
-    font-size: 1rem;
+    color: white;
+    font-size: 1.25rem;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -29,15 +27,15 @@
 
 .about-detail {
     width: 100%;
-    height: 7.5rem;
+    height: 9rem;
 
-    margin: 1.75rem 0 0 0;
+    margin-top: 1.5rem;
 
     position: relative;
     float: left;
 
-    color: var(--tertiary-70);
-    font-size: 0.65rem;
+    color: #CFD8DC;
+    font-size: 0.7rem;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -45,8 +43,8 @@
 }
 
 .about-highlight {
-    color: var(--secondary-80);
-    font-size: 0.65rem;
+    color: white;
+    font-size: 0.7rem;
     font-weight: 900;
     font-style: italic;
     text-align: center;
@@ -59,7 +57,7 @@
     width: auto;
     height: auto;
 
-    margin: 3rem 0 0 0;
+    margin: 3rem 0 4rem 0;
     padding: 0.75rem 1.5rem;
 
     position: relative;
@@ -67,12 +65,12 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    color: var(--tertiary-80);
+    color: white;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 900;
     text-align: center;
 
-    background-color: var(--secondary-50);
+    background: #009688;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 1.5rem;
     transition: 0.5s;
@@ -83,5 +81,7 @@
 }
 
 .about-button:hover {
-    background-color: var(--secondary-70);
+    background-color: #00897B;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.5s;
 }

@@ -1,15 +1,11 @@
 .contact {
     width: 100%;
-    height: 20rem;
-
-    margin-top: 3rem;
+    height: auto;
 
     position: relative;
     float: left;
 
-    background-color: var(--primary-100);
-
-    transition: 1s;
+    background-color: #1976D2;
 }
 
 .contact > h1 {
@@ -21,7 +17,7 @@
     position: relative;
     float: left;
 
-    color: var(--tertiary-100);
+    color: white;
     font-size: 1rem;
     font-weight: 300;
     font-style: italic;
@@ -33,7 +29,7 @@
     width: auto;
     height: auto;
 
-    margin: 3rem 0 0 0;
+    margin-top: 3rem;
     padding: 0.75rem 1.5rem;
 
     position: relative;
@@ -41,12 +37,12 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    color: var(--tertiary-80);
+    color: white;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 900;
     text-align: center;
 
-    background-color: var(--secondary-50);
+    background: #009688;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 1.5rem;
     transition: 0.5s;
@@ -57,26 +53,22 @@
 }
 
 .contact > div:hover {
-    background-color: var(--secondary-70);
+    background-color: #00897B;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.5s;
 }
 
 .contact > h2 {
     width: 100%;
     height: 1rem;
 
-    margin: 4rem 0 0 0;
+    margin: 3rem 0 ;
 
     position: relative;
     float: left;
 
-    color: var(--tertiary-50);
+    color: #CFD8DC;
     font-size: 0.6rem;
     font-weight: 300;
     text-align: center;
-}
-
-@media (max-width: 1500px) {
-    .contact {
-        margin-top: 0;
-    }
 }

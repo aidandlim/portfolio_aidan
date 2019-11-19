@@ -1,13 +1,9 @@
 .greeting {
     width: 100%;
-    height: 25rem;
+    height: 20rem;
 
     position: relative;
     float: left;
-
-    background-color: var(--secondary-10);
-
-    transition: 1s;
 }
 
 .greeting > h1 {
@@ -19,8 +15,8 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-100);
-    font-size: 1.75rem;
+    color: #263238;
+    font-size: 1.7rem;
     font-weight: 900;
     text-align: center;
     line-height: 2rem;
@@ -35,8 +31,8 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-70);
-    font-size: 0.95rem;
+    color: #455A64;
+    font-size: 1rem;
     font-weight: 300;
     text-align: center;
     line-height: 2rem;
@@ -50,7 +46,7 @@
     top: 0;
     left: 0;
 
-    background-color: var(--tertiary-70);
+    background-color: #F5F5F5;
 
     z-index: 10;
 }
@@ -64,7 +60,7 @@
     position: relative;
     float: left;
 
-    background-color: var(--secondary-20);
+    background-color: #CFD8DC;
 }
 
 .greeting-setting {
@@ -76,7 +72,7 @@
     position: relative;
     float: left;
 
-    color: var(--secondary-20);
+    color: white;
     font-size: 0.5rem;
     font-weight: 700;
     text-align: center;
@@ -86,8 +82,7 @@
 }
 
 .greeting-setting-active {
-    color: white;
-    background-color: var(--secondary-10);
+    background-color: #607D8B;
 }
 
 .greeting-link-icon {
@@ -99,13 +94,7 @@
     position: relative;
     float: right;
 
-    color: var(--secondary-50);
+    color: #607D8B;
 
     cursor: pointer;
-}
-
-@media (max-width: 1500px) {
-    .greeting > h2 {
-        font-size: 0.75rem;
-    }
 }
