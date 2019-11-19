@@ -39,17 +39,6 @@ const Portfolio = (props) => {
 			code: 'https://github.com/aidandlim/portfolio_matcha/',
 			demo: '',
 		},
-		{
-			isPersonal: 0,
-			isProgress: 1,
-			title: 'M@TCH@',
-			descriptionEN: 'A responsive Single Page Application(SPA) using React',
-			descriptionKR: 'A responsive Single Page Application(SPA) using React',
-			language: ['JAVASCRIPT', 'REACT', 'REDUX', 'NODE', 'EXPRESS', 'MYSQL', 'HTML5', 'CSS3'],
-			docs: 'https://aidandlim.github.io/portfolio_matcha/',
-			code: 'https://github.com/aidandlim/portfolio_matcha/',
-			demo: '',
-		},
 	]
 	return (
 		<div className='portfolio'>
@@ -70,6 +59,12 @@ const Portfolio = (props) => {
 					<Card data={data} key={index} />
 				)}
 			</div>
+			{!props.lang 
+				? 
+				<h2>In addition to these, I have been working on a variety of private projects include a startup project.</h2>
+				: 
+				<h2>이외에도 저는 스타트업 프로젝트를 포함한 다양한 비공개 프로젝트를 진행해왔습니다.</h2>
+			}
 		</div>
 	);
 }
