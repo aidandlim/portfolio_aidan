@@ -14,7 +14,14 @@ const Card = (props) => {
 				<div className='card-title'>{props.data.title}</div>
 			</div>
 			<div className='card-body'>
-				<div className='card-description'>{props.data.descriptionEN}</div>
+				<div className='card-description'>
+					{!props.data.lang 
+						? 
+						props.data.descriptionEN
+						: 
+						props.data.descriptionKR
+					}
+				</div>
 				{
 					props.data.language.map((lang, index) =>
 						<div className='card-language' key={index}>#{lang}</div>

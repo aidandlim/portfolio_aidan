@@ -11,7 +11,7 @@
 ## Preview
 
 <a href="https://portal.aidandlim.com" title="preview" alt="preview">
-  <img src="https://github.com/aidandlim/portfolio_aidan/blob/master/AIDAN.png?raw=true" width="100%" title="preview" alt="preview">
+  <img src="https://github.com/aidandlim/portfolio_aidan/blob/master/PREVIEW.png?raw=true" width="100%" title="preview" alt="preview">
 </a>
 
 ---
