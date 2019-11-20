@@ -178,9 +178,9 @@ const Skill = (props) => {
 				</div>
 				{!props.lang 
 					? 
-					<div className='skill-interested'>Also, I am interested in learning <b>React Native</b> for Application, <b>Swift</b> for iOS, <b>Python</b> for Machine Learning recently.</div>
+					<div className='skill-interested'>Also, I am interested in learning <b>React Native</b>, <b>Swift</b>, <b>Python</b> recently.</div>
 					: 
-					<div className='skill-interested'>또한, 최근에 어플리케이션을 위한 <b>React Native</b>, iOS를 위한 <b>Swift</b>, 머신러닝을 위한 <b>Python</b>에 관심을 갖고 있습니다.</div>
+					<div className='skill-interested'>또한, 최근에 <b>React Native</b>, <b>Swift</b>, <b>Python</b>에 관심을 갖고 있습니다.</div>
 				}
 			</div>
 		</div>
