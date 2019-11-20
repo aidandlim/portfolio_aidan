@@ -23,7 +23,7 @@ const Portfolio = (props) => {
 			isProgress: 0,
 			title: '#Camagru',
 			descriptionEN: 'This project is a Social Network Service(SNS) for sharing pictures like Instagram. It is also a responsive Single Page Application(SPA). The front end was developed using React and Redux, while the back end was developed using the Java framework Springboot. A key feature of the project is the ability to take pictures using cameras, upload local items, and apply filters or stickers to share them.',
-			descriptionKR: '이 프로젝트는 인스타그램처럼 사진 공유 소셜 네트워크 서비스입니다. 이 또한 반응형 단일 페이지 어플리케이션입니다. 프론트엔드는 React와 Redux를 활용하여 개발되었고, 백엔드는 Java 프레임워크인 Springboot를 활용하여 개발되었습니다. 이 프로젝트의 핵심기능은 카메라를 활용하거나 로컬의 사진을 업로드하여 필터 혹은 스티커를 적용하고 공유하는 것입니다.',
+			descriptionKR: '이 프로젝트는 인스타그램처럼 사진 공유 소셜 네트워크 서비스입니다. 이 또한 반응형 단일 페이지 어플리케이션입니다. 프론트엔드는 React와 Redux를 활용하였으며, 백엔드는 Java 프레임워크인 Springboot로 개발하였습니다. 이 프로젝트의 핵심기능은 카메라를 활용하거나 로컬의 사진을 업로드하여 필터 혹은 스티커를 적용하고 공유하는 것입니다.',
 			language: ['JAVASCRIPT', 'REACT', 'REDUX', 'JAVA', 'SPRINGBOOT', 'MYSQL', 'MYBATIS', 'HTML5', 'CSS3'],
 			docs: 'https://aidandlim.github.io/portfolio_camagru/',
 			code: 'https://github.com/aidandlim/portfolio_camagru/',
