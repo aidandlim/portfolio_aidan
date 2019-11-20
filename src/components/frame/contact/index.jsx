@@ -5,7 +5,10 @@ import './index.css';
 const Contact = (props) => {
 
 	const _handleContact = () => {
-		
+		document.getElementById('alert').style.top = '0rem';
+		setTimeout(() => {
+			document.getElementById('alert').style.top = 'calc(0% - 3rem)';
+		}, 2500);
 	}
 
 	return (

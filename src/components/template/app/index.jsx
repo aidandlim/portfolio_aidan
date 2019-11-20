@@ -6,6 +6,7 @@ import Wrapper from 'react-div-100vh'
 
 import Greeting from '../../frame/greeting';
 import Profile from '../../frame/profile';
+import Alert from '../../frame/alert';
 import About from '../../frame/about';
 import Skill from '../../frame/skill';
 import Portfolio from '../../frame/portfolio';
@@ -36,6 +37,7 @@ const App = () => {
 				<Portfolio lang={lang} />
 				<Project lang={lang} />
 				<Contact lang={lang} />
+				<Alert lang={lang} />
 			</div> 
 		</Wrapper>
 	);

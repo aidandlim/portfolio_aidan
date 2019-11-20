@@ -125,3 +125,34 @@
     text-align: center;
     line-height: 4rem;
 }
+
+@media (max-width: 95rem) {
+    .skill-container {
+        width: calc(100% - 2rem);
+        margin: 0 1rem;
+        transform: translate(calc(-50% - 1rem), 0);
+    }
+}
+
+@media (max-width: 70rem) {
+    .skill-container {
+        width: calc(100% - 2rem);
+        margin: 0 1rem;
+        transform: translate(calc(-50% - 1rem), 0);
+    }
+
+    .skill-set {
+        width: calc(50% - 0.05rem);
+        margin-bottom: 1rem;
+    }
+
+    .skill-container > h2 {
+        font-size: 0.65rem;
+    }
+
+    .skill-interested {
+        height: 3rem;
+        font-size: 0.5rem;
+        line-height: 3rem;
+    }
+}

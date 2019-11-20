@@ -125,3 +125,13 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 0.5s;
 }
+
+@media (max-width: 70rem) {
+    .about-detail {
+        font-size: 0.6rem;
+    }
+
+    .about-highlight {
+        font-size: 0.6rem;
+    }
+}

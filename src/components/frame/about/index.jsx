@@ -16,7 +16,10 @@ const About = (props) => {
 	}
 
 	const _handleDetail = () => {
-		
+		document.getElementById('alert').style.top = '0rem';
+		setTimeout(() => {
+			document.getElementById('alert').style.top = 'calc(0% - 3rem)';
+		}, 2500);
 	}
 
 	return (
