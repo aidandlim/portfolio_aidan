@@ -15,7 +15,7 @@ const Project = (props) => {
 				}
 				{!props.lang 
 					? 
-					<h2>I can work on any projects in entire area of web development. For example ...</h2>
+					<h2>I can work on any projects in the entire area of web development. For example ...</h2>
 					: 
 					<h2>저는 웹 분야의 다양한 프로젝트에 참여할 수 있습니다. 예를 들면...</h2>
 				}
@@ -73,7 +73,7 @@ const Project = (props) => {
 						<div className='project-set-description'>
 							{!props.lang 
 								? 
-								'develop using public or specific APIs such as public data, Google Maps, and SNS. In addition, it can provide capabilities such as data analysis and graphing.'
+								'Develop using public or specific APIs such as public data, Google Maps, and SNS. In addition, it can provide capabilities such as data analysis and graphing.'
 								: 
 								'공공데이터, 구글 맵, SNS 등 공공 혹은 특정 API를 활용하여 다양한 웹 어플리케이션을 개발합니다. 추가적으로 데이터 분석, 그래핑 등의 기능도 제공할 수 있습니다.'
 							}
