@@ -55,7 +55,7 @@ const Portfolio = (props) => {
 			lang: props.lang
 		},
 		{
-			isPersonal: 0,
+			isPersonal: 1,
 			isProgress: 0,
 			title: 'Repetitive',
 			descriptionEN: 'A responsive Single Page Application(SPA) using React & Node for learning english speaking skills. It provides simple sign in & up features, adding language pattern & listing, and drill for repetitive exercise.',
