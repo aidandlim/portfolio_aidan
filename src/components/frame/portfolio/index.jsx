@@ -32,14 +32,38 @@ const Portfolio = (props) => {
 		},
 		{
 			isPersonal: 0,
-			isProgress: 1,
+			isProgress: 0,
 			title: 'M@TCH@',
-			descriptionEN: 'This project is a group project that is currently in progress. Similarly, we are using React for front-end development, and we are developing the back-end with Express. Like Tinder, we will match the date with location-based and implement chat feature. In addition, we are actively utilizing sign-in features through social networks as well as Google Maps APIs.',
-			descriptionKR: '이 프로젝트는 현재 진행중인 그룹 프로젝트입니다. 역시 프론트엔드 개발은 React로 진행하고 있으며, 백엔드는 Express로 개발하고 있습니다. Tinder와 같이 데이팅 상대를 위치기반으로 매칭하고 채팅 기능을 제공하는 어플리케이션이 될 것입니다. 또한, 소셜네트워크를 활용한 로그인 기능과 구글 맵 API를 적극 활용 중에 있습니다.',
+			descriptionEN: 'Similarly, we are using React for front-end development, and we are developing the back-end with Express. Like Tinder, we will match the date with location-based and implement chat feature. In addition, we are actively utilizing sign-in features through social networks as well as Google Maps APIs.',
+			descriptionKR: '역시 프론트엔드 개발은 React로 진행하고 있으며, 백엔드는 Express로 개발하고 있습니다. Tinder와 같이 데이팅 상대를 위치기반으로 매칭하고 채팅 기능을 제공하는 어플리케이션이 될 것입니다. 또한, 소셜네트워크를 활용한 로그인 기능과 구글 맵 API를 적극 활용 중에 있습니다.',
 			language: ['JAVASCRIPT', 'REACT', 'REDUX', 'NODE', 'EXPRESS', 'MYSQL', 'HTML5', 'CSS3'],
 			docs: 'https://aidandlim.github.io/portfolio_matcha/',
 			code: 'https://github.com/aidandlim/portfolio_matcha/',
+			demo: 'https://matcha.aidandlim.com/',
+			lang: props.lang
+		},
+		{
+			isPersonal: 0,
+			isProgress: 0,
+			title: 'HyperTube',
+			descriptionEN: 'A responsive Single Page Application(SPA) for streaming video with torrent using React, Node & Java. We provides feed that uses filter such as sorting by popularity, rating or genre, search that is by movie title, casting, producer, and movie detail that is from several API. Also, it offers live streaming movie from torrent protocol.',
+			descriptionKR: '반응형 웹프로젝트로써 토렌트로부터 비디오를 다운로드 받으며 동시에 스트리밍 하는 어플리케이션입니다. 인기도, 평점, 장르 등의 필터링을 통한 피드와 영화 제목, 연기자 및 제작자 등을 통한 검색, 그리고 API 활용을 통한 영화 정보를 제공합니다. 또한, 토렌트 프로토콜을 활용하여 다운로드와 동시에 영화를 시청할 수 있습니다.',
+			language: ['JAVASCRIPT', 'REACT', 'REDUX', 'JAVA', 'SPRING-BOOT', 'NODE', 'EXPRESS', 'MYSQL', 'HTML5', 'CSS3'],
+			docs: 'https://aidandlim.github.io/portfolio_hypertube/',
+			code: 'https://github.com/aidandlim/portfolio_hypertube/',
 			demo: '',
+			lang: props.lang
+		},
+		{
+			isPersonal: 0,
+			isProgress: 0,
+			title: 'Repetitive',
+			descriptionEN: 'A responsive Single Page Application(SPA) using React & Node for learning english speaking skills. It provides simple sign in & up features, adding language pattern & listing, and drill for repetitive exercise.',
+			descriptionKR: '모바일에 최적화된 어플리케이션으로써 영어 스피킹 공부 활용을 위한 웹 프로그램입니다. 손쉽게 회원가입 및 로그인을 할 수 있으며, 다양한 패턴과 동사구, 부사구 등을 업데이트할 수 있습니다. 나아가 반복적인 연습을 위한 드릴 기능을 제공합니다.',
+			language: ['JAVASCRIPT', 'REACT', 'NODE', 'EXPRESS', 'HTML5', 'CSS3'],
+			docs: 'https://aidandlim.github.io/portfolio_repetitive/',
+			code: 'https://github.com/aidandlim/portfolio_repetitive/',
+			demo: 'https://repetitive.aidandlim.com/',
 			lang: props.lang
 		},
 	]
