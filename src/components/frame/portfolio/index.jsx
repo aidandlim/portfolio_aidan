@@ -63,6 +63,7 @@ const Portfolio = (props) => {
 			language: ['JAVASCRIPT', 'REACT', 'NODE', 'EXPRESS', 'HTML5', 'CSS3'],
 			docs: 'https://aidandlim.github.io/portfolio_repetitive/',
 			code: 'https://github.com/aidandlim/portfolio_repetitive/',
+			demo: '',
 			lang: props.lang
 		},
 		{
