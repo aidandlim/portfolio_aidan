@@ -63,7 +63,18 @@ const Portfolio = (props) => {
 			language: ['JAVASCRIPT', 'REACT', 'NODE', 'EXPRESS', 'HTML5', 'CSS3'],
 			docs: 'https://aidandlim.github.io/portfolio_repetitive/',
 			code: 'https://github.com/aidandlim/portfolio_repetitive/',
-			demo: 'https://repetitive.aidandlim.com/',
+			lang: props.lang
+		},
+		{
+			isPersonal: 1,
+			isProgress: 0,
+			title: 'Overview of COVID-19',
+			descriptionEN: 'A responsive Single Page Application(SPA) using React for sharing information about COVID-19. It provides various real-time data about Coronavirus from public APIs which is based on government data. You can check list by countries or date but also statistics that includes pie & line graphs.',
+			descriptionKR: '모바일과 웹 모두 활용가능한 반응형 웹프로젝트로써 현재 이슈가 되고 있는 코로나바이러스 분석 어플리케이션입니다. 이 프로젝트는 정부 발표자료를 기반으로한 실시간 공공 API로부터 데이터를 수집하여 국가별 / 기간별 리스팅, 다양한 그래핑 등의 방식으로 분석한 데아터를 제공합니다. 한 눈에 바이러스의 전세계 및 각국의 감염 상황 등을 확인할 수 있도록 제작하였습니다.',
+			language: ['JAVASCRIPT', 'REACT', 'HTML5', 'CSS3'],
+			docs: 'https://github.com/aidandlim/portfolio_coronavirus',
+			code: 'https://github.com/aidandlim/portfolio_coronavirus',
+			demo: 'https://covid19.aidandlim.com/',
 			lang: props.lang
 		},
 	]
